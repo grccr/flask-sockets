@@ -25,7 +25,7 @@ setup(
     install_requires=[
         'Flask',
         'gevent',
-        'karellen-geventws'
+        'git+https://github.com/grccr/gevent-websocket.git@2to3#egg=gevent-websocket'
     ],
     classifiers=[
         'Environment :: Web Environment',
