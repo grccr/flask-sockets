@@ -25,7 +25,7 @@ setup(
     install_requires=[
         'Flask',
         'gevent',
-        'gevent-websocket'
+        'karellen-geventws'
     ],
     classifiers=[
         'Environment :: Web Environment',
